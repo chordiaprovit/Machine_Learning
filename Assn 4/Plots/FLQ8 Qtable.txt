@@ -1,0 +1,1276 @@
+/Users/provitchordia/conda/bin/python /Applications/PyCharm.app/Contents/helpers/pydev/pydevconsole.py 51945 51946
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['/Users/provitchordia/Machine Learning'])
+PyDev console: starting.
+Python 3.6.7 |Anaconda, Inc.| (default, Oct 23 2018, 14:01:38) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+runfile('/Users/provitchordia/Machine Learning/Assn 4/FLQ8.py', wdir='/Users/provitchordia/Machine Learning/Assn 4')
+4
+64
+[[  5.17418827e-03   5.32836399e-03   1.15781469e-02   5.40532463e-03]
+ [  6.80030468e-03   1.05967276e-02   1.09110530e-02   5.97374734e-03]
+ [  6.61830233e-03   5.84314557e-03   7.44461031e-03   1.38724329e-02]
+ [  8.34366236e-03   8.31937216e-03   2.81670434e-02   7.66467051e-03]
+ [  8.55969522e-03   8.77961809e-03   1.88778952e-02   3.00019560e-02]
+ [  1.33089961e-02   1.34289217e-02   3.71856900e-02   1.33060751e-02]
+ [  1.61202724e-02   1.50339852e-02   5.08732844e-02   1.62855864e-02]
+ [  5.18438273e-02   1.71320551e-02   1.72058367e-02   1.71275074e-02]
+ [  4.16054307e-03   4.27076892e-03   4.63884430e-03   1.65779855e-02]
+ [  4.87659821e-03   2.47466614e-03   2.64090538e-03   1.20796409e-02]
+ [  3.09741446e-03   4.86402838e-03   1.86838067e-03   1.53971168e-02]
+ [  2.45136066e-03   2.57733510e-05   2.02154475e-03   1.35406471e-02]
+ [  1.74351399e-03   8.08890702e-03   3.76561933e-02   1.80569755e-02]
+ [  1.30631939e-02   9.87526182e-03   5.29317229e-03   8.75469202e-02]
+ [  1.81366355e-02   1.32015820e-01   1.82710841e-02   1.79897197e-02]
+ [  4.47470090e-02   7.53533476e-02   3.02272159e-02   2.19490792e-02]
+ [  4.93841173e-03   3.65374387e-03   3.07402355e-03   3.33130909e-03]
+ [  1.13814740e-03   1.24803546e-03   1.60042387e-03   3.61748028e-02]
+ [  1.91256165e-02   7.11769010e-03   6.63782819e-06   7.84774934e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  6.48531505e-05   1.52583903e-04   2.34771715e-03   2.26589041e-06]
+ [  3.34969850e-04   7.09716853e-04   8.23160162e-04   6.14636227e-02]
+ [  7.52484676e-03   6.75057590e-02   2.11220968e-02   1.71440310e-02]
+ [  8.56054053e-02   2.71902819e-02   3.63765592e-02   4.39360253e-02]
+ [  1.12728114e-03   4.12153282e-04   3.23802350e-04   2.54635573e-03]
+ [  2.34368121e-04   1.73053028e-03   7.33164588e-04   7.86611157e-04]
+ [  3.29881949e-02   1.68227089e-04   6.69653285e-05   6.41219154e-05]
+ [  8.66136558e-04   2.16916362e-06   1.24098206e-09   9.79502212e-06]
+ [  1.33651131e-04   8.68965975e-05   4.62761549e-06   1.32739102e-04]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  2.76578656e-07   7.61634532e-05   2.16428515e-02   2.27160947e-04]
+ [  5.83085785e-02   6.24634010e-02   8.90165803e-02   1.74658808e-01]
+ [  2.95194905e-04   1.20411080e-04   6.07783880e-04   1.55395256e-04]
+ [  9.42263779e-05   8.72305846e-05   1.01199008e-07   1.22438138e-03]
+ [  9.44249254e-04   9.15165774e-07   3.63141664e-05   6.39333761e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  1.50310873e-05   5.75530867e-07   1.42997739e-04   6.69312911e-05]
+ [  4.56869826e-08   6.04684601e-04   1.63379158e-05   8.19725567e-10]
+ [  4.19985136e-04   3.72611863e-05   6.43676470e-05   1.02897378e-03]
+ [  9.78503184e-02   6.40837385e-01   5.88418561e-01   1.80803525e-01]
+ [  2.65167616e-04   2.89411748e-05   2.88113203e-05   2.92319857e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  2.57904152e-09   4.30448328e-05   7.16690732e-07   2.27514221e-07]
+ [  1.28066289e-06   3.73401796e-05   1.21473982e-06   4.12676651e-05]
+ [  3.58456057e-03   1.51699371e-05   5.22689336e-05   7.13388704e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  4.05463606e-03   7.18860028e-02   8.22225047e-01   7.24057999e-02]
+ [  2.43544729e-04   4.17070142e-07   2.32174800e-05   2.78425160e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   3.17293623e-06   3.73814020e-06   3.78196542e-07]
+ [  3.51875895e-06   3.23358043e-12   1.56470344e-07   2.73124330e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  4.66702800e-01   6.36365646e-06   1.31292796e-04   2.86857836e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  7.82224928e-03   8.40616205e-03   9.89213845e-01   8.39633342e-02]
+ [  2.56662164e-04   2.51573190e-04   2.56706993e-04   2.51506575e-04]
+ [  3.70855746e-05   2.25672056e-04   0.00000000e+00   2.55909309e-05]
+ [  2.57760510e-05   0.00000000e+00   5.33078852e-05   2.40147146e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   1.50578939e-06   5.27491716e-04   5.63023829e-05]
+ [  5.37893101e-05   5.95898436e-04   8.85750118e-01   1.64763699e-05]
+ [  0.00000000e+00   0.00000000e+00   7.76759843e-03   9.75050341e-02]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]]
+-+-+-+-+-+-+-+-+-+-+-+-
+****************************************************
+EPISODE  0
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 52
+****************************************************
+EPISODE  1
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  2
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 66
+****************************************************
+EPISODE  3
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 174
+****************************************************
+EPISODE  4
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 23
+****************************************************
+EPISODE  5
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 146
+****************************************************
+EPISODE  6
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  7
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 56
+****************************************************
+EPISODE  8
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 173
+****************************************************
+EPISODE  9
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  10
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 50
+****************************************************
+EPISODE  11
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  12
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 140
+****************************************************
+EPISODE  13
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 93
+****************************************************
+EPISODE  14
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 86
+****************************************************
+EPISODE  15
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 116
+****************************************************
+EPISODE  16
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  17
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 49
+****************************************************
+EPISODE  18
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 80
+****************************************************
+EPISODE  19
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  20
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 44
+****************************************************
+EPISODE  21
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 57
+****************************************************
+EPISODE  22
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 60
+****************************************************
+EPISODE  23
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 38
+****************************************************
+EPISODE  24
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 44
+****************************************************
+EPISODE  25
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 135
+****************************************************
+EPISODE  26
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  27
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 105
+****************************************************
+EPISODE  28
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 36
+****************************************************
+EPISODE  29
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 142
+****************************************************
+EPISODE  30
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 55
+****************************************************
+EPISODE  31
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 92
+****************************************************
+EPISODE  32
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 69
+****************************************************
+EPISODE  33
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 82
+****************************************************
+EPISODE  34
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 84
+****************************************************
+EPISODE  35
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  36
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 52
+****************************************************
+EPISODE  37
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 158
+****************************************************
+EPISODE  38
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 121
+****************************************************
+EPISODE  39
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 87
+****************************************************
+EPISODE  40
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  41
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  42
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 66
+****************************************************
+EPISODE  43
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 92
+****************************************************
+EPISODE  44
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 168
+****************************************************
+EPISODE  45
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 58
+****************************************************
+EPISODE  46
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 130
+****************************************************
+EPISODE  47
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 57
+****************************************************
+EPISODE  48
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 116
+****************************************************
+EPISODE  49
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 75
+****************************************************
+EPISODE  50
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 91
+****************************************************
+EPISODE  51
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 52
+****************************************************
+EPISODE  52
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 101
+****************************************************
+EPISODE  53
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 48
+****************************************************
+EPISODE  54
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 37
+****************************************************
+EPISODE  55
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 71
+****************************************************
+EPISODE  56
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 109
+****************************************************
+EPISODE  57
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  58
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 77
+****************************************************
+EPISODE  59
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 105
+****************************************************
+EPISODE  60
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 55
+****************************************************
+EPISODE  61
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 161
+****************************************************
+EPISODE  62
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 91
+****************************************************
+EPISODE  63
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 124
+****************************************************
+EPISODE  64
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 82
+****************************************************
+EPISODE  65
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 26
+****************************************************
+EPISODE  66
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 53
+****************************************************
+EPISODE  67
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 53
+****************************************************
+EPISODE  68
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 82
+****************************************************
+EPISODE  69
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 133
+****************************************************
+EPISODE  70
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 83
+****************************************************
+EPISODE  71
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 42
+****************************************************
+EPISODE  72
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  73
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 92
+****************************************************
+EPISODE  74
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 136
+****************************************************
+EPISODE  75
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 67
+****************************************************
+EPISODE  76
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 124
+****************************************************
+EPISODE  77
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 58
+****************************************************
+EPISODE  78
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  79
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 160
+****************************************************
+EPISODE  80
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 36
+****************************************************
+EPISODE  81
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 183
+****************************************************
+EPISODE  82
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 103
+****************************************************
+EPISODE  83
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 176
+****************************************************
+EPISODE  84
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  85
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 113
+****************************************************
+EPISODE  86
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  87
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 66
+****************************************************
+EPISODE  88
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 95
+****************************************************
+EPISODE  89
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 82
+****************************************************
+EPISODE  90
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 170
+****************************************************
+EPISODE  91
+  (Down)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 177
+****************************************************
+EPISODE  92
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 30
+****************************************************
+EPISODE  93
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 62
+****************************************************
+EPISODE  94
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 89
+****************************************************
+EPISODE  95
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 184
+****************************************************
+EPISODE  96
+  (Up)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 199
+****************************************************
+EPISODE  97
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 57
+****************************************************
+EPISODE  98
+  (Right)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 170
+****************************************************
+EPISODE  99
+  (Left)
+SFFFFFFF
+FFFFFFFF
+FFFHFFFF
+FFFFFHFF
+FFFHFFFF
+FHHFFFHF
+FHFFHFHF
+FFFHFFFG
+Number of steps 19
+100
+100

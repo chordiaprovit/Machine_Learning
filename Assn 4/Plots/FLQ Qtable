@@ -1,0 +1,754 @@
+/Users/provitchordia/conda/bin/python /Applications/PyCharm.app/Contents/helpers/pydev/pydevconsole.py 56972 56973
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['/Users/provitchordia/Machine Learning'])
+PyDev console: starting.
+Python 3.6.7 |Anaconda, Inc.| (default, Oct 23 2018, 14:01:38) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+runfile('/Users/provitchordia/Machine Learning/Assn 4/FLQ.py', wdir='/Users/provitchordia/Machine Learning/Assn 4')
+4
+16
+[[  1.20902334e-01   9.29675193e-02   4.53196777e-02   4.32641729e-02]
+ [  4.38724029e-03   1.20554214e-02   3.93787226e-04   1.35091618e-01]
+ [  1.52037364e-02   4.80567051e-03   3.70413938e-02   1.29743879e-01]
+ [  8.20870233e-03   4.17828423e-03   1.83544344e-04   5.74279986e-02]
+ [  1.34309523e-01   6.30603127e-02   1.88076366e-02   4.88216384e-02]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  4.37947419e-04   5.17721620e-05   6.39340689e-02   4.32066042e-05]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  4.78979082e-03   1.08713256e-02   1.51107333e-02   2.38008281e-01]
+ [  5.50561325e-03   3.84173405e-01   5.74343498e-03   5.01855505e-04]
+ [  8.34469617e-01   2.32657202e-04   5.14349893e-04   1.49987785e-03]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]
+ [  1.85714244e-02   6.67617379e-02   5.86564563e-01   9.65430244e-02]
+ [  6.88294200e-02   9.31567708e-01   1.60856271e-01   4.25231576e-01]
+ [  0.00000000e+00   0.00000000e+00   0.00000000e+00   0.00000000e+00]]
+-+-+-+-+-+-+-+-+-+-+-+-
+****************************************************
+EPISODE  0
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 66
+****************************************************
+EPISODE  1
+****************************************************
+EPISODE  2
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 20
+****************************************************
+EPISODE  3
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 21
+****************************************************
+EPISODE  4
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 77
+****************************************************
+EPISODE  5
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 19
+****************************************************
+EPISODE  6
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 8
+****************************************************
+EPISODE  7
+****************************************************
+EPISODE  8
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 9
+****************************************************
+EPISODE  9
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 16
+****************************************************
+EPISODE  10
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 42
+****************************************************
+EPISODE  11
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 30
+****************************************************
+EPISODE  12
+****************************************************
+EPISODE  13
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 41
+****************************************************
+EPISODE  14
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 63
+****************************************************
+EPISODE  15
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 68
+****************************************************
+EPISODE  16
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 18
+****************************************************
+EPISODE  17
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 29
+****************************************************
+EPISODE  18
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 21
+****************************************************
+EPISODE  19
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 22
+****************************************************
+EPISODE  20
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 16
+****************************************************
+EPISODE  21
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 42
+****************************************************
+EPISODE  22
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 25
+****************************************************
+EPISODE  23
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 25
+****************************************************
+EPISODE  24
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 60
+****************************************************
+EPISODE  25
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 68
+****************************************************
+EPISODE  26
+****************************************************
+EPISODE  27
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 7
+****************************************************
+EPISODE  28
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 44
+****************************************************
+EPISODE  29
+****************************************************
+EPISODE  30
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 62
+****************************************************
+EPISODE  31
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 17
+****************************************************
+EPISODE  32
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 11
+****************************************************
+EPISODE  33
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 14
+****************************************************
+EPISODE  34
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 85
+****************************************************
+EPISODE  35
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 31
+****************************************************
+EPISODE  36
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 46
+****************************************************
+EPISODE  37
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 64
+****************************************************
+EPISODE  38
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 24
+****************************************************
+EPISODE  39
+****************************************************
+EPISODE  40
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 71
+****************************************************
+EPISODE  41
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 33
+****************************************************
+EPISODE  42
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 83
+****************************************************
+EPISODE  43
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 10
+****************************************************
+EPISODE  44
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 8
+****************************************************
+EPISODE  45
+****************************************************
+EPISODE  46
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 79
+****************************************************
+EPISODE  47
+****************************************************
+EPISODE  48
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 28
+****************************************************
+EPISODE  49
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 20
+****************************************************
+EPISODE  50
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 13
+****************************************************
+EPISODE  51
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 43
+****************************************************
+EPISODE  52
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 20
+****************************************************
+EPISODE  53
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 71
+****************************************************
+EPISODE  54
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 24
+****************************************************
+EPISODE  55
+****************************************************
+EPISODE  56
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 93
+****************************************************
+EPISODE  57
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 45
+****************************************************
+EPISODE  58
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 63
+****************************************************
+EPISODE  59
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 20
+****************************************************
+EPISODE  60
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 18
+****************************************************
+EPISODE  61
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 75
+****************************************************
+EPISODE  62
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 25
+****************************************************
+EPISODE  63
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 35
+****************************************************
+EPISODE  64
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 94
+****************************************************
+EPISODE  65
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 54
+****************************************************
+EPISODE  66
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 26
+****************************************************
+EPISODE  67
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 24
+****************************************************
+EPISODE  68
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 5
+****************************************************
+EPISODE  69
+****************************************************
+EPISODE  70
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 54
+****************************************************
+EPISODE  71
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 37
+****************************************************
+EPISODE  72
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 42
+****************************************************
+EPISODE  73
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 17
+****************************************************
+EPISODE  74
+****************************************************
+EPISODE  75
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 7
+****************************************************
+EPISODE  76
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 22
+****************************************************
+EPISODE  77
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 77
+****************************************************
+EPISODE  78
+****************************************************
+EPISODE  79
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 14
+****************************************************
+EPISODE  80
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 96
+****************************************************
+EPISODE  81
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 28
+****************************************************
+EPISODE  82
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 94
+****************************************************
+EPISODE  83
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 56
+****************************************************
+EPISODE  84
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 53
+****************************************************
+EPISODE  85
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 43
+****************************************************
+EPISODE  86
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 15
+****************************************************
+EPISODE  87
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 63
+****************************************************
+EPISODE  88
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 16
+****************************************************
+EPISODE  89
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 17
+****************************************************
+EPISODE  90
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 8
+****************************************************
+EPISODE  91
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 66
+****************************************************
+EPISODE  92
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 49
+****************************************************
+EPISODE  93
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 10
+****************************************************
+EPISODE  94
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 29
+****************************************************
+EPISODE  95
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 33
+****************************************************
+EPISODE  96
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 17
+****************************************************
+EPISODE  97
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 87
+****************************************************
+EPISODE  98
+  (Down)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 19
+****************************************************
+EPISODE  99
+  (Right)
+SFFF
+FHFH
+FFFH
+HFFG
+Number of steps 14

@@ -1,0 +1,9 @@
+principle component analysis is ythe dimensionality reduction algoritham by finding orthogonal linear combinatins (Pricipal components)
+or orignal variables with large variables. The first principle component has the largers variance, socond PC is the linearcombination of second largest variance and so on. As the variance depends on the scales of variables, i have standerdised both wine and adult datasets.
+PCA crates the new variables by calculating the variance and the calculated varaiance fholds some amount of cumalative imformation of orignal one. By calculating the covariance, the number of dimensions of dataset can be reduced as more and more information will be hold in less variables then orignal. 
+If we look at the cumalative explained variance of wine dataset, we can see that almost 60% of information is sored in first 3 principle components and 9 components hold up around 100 percent of information in dataset. The dimension of dataset is reduced from orignal 11 variables to 9 variables. This seems to be a change of 20% but in case of larger dtasets with 100s of dimensions, even 20% reduction can make huge difference and can save lots of computing power without loosing any information. 
+Similarly plot of eigen values vs principle component shows the explain variance. The plot sows how much information is stored in each
+principle component. This plot is called as Scree plot and it helps in deciding how many components will be sufficient to estimate the data.
+	
+
+

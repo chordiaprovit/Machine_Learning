@@ -1,0 +1,132 @@
+kernel="rbf", C=2.8, gamma=.0073
+
+Confusion matrix:
+[[2258    1    4    1    2    2    3    1    4    2]
+ [   1 2566    9    1    1    0    0    7    3    0]
+ [   4    1 2280    5    4    0    1    9    8    2]
+ [   0    0   14 2304    1   13    0    6    8    2]
+ [   2    2    2    0 2183    0    7    5    0   10]
+ [   4    0    0   16    3 2026   12    1    4    3]
+ [   7    5    3    0    5    2 2245    0    4    0]
+ [   1    6   11    2    5    1    0 2373    5   13]
+ [   3    9    4    9    4   10    2    3 2166    5]
+ [   3    2    2    6   19    6    0   12   10 2329]]
+Accuracy: 0.9840
+======================
+Start fitting. This may take a while
+Confusion matrix:
+[[2203    0   11    5    8   13   17    1   18    2]
+ [   0 2521   16    6    4    9    7    4   19    2]
+ [  16   11 2094   29   38    8   45   20   48    5]
+ [   6   26   39 2100    4   92    7   22   39   13]
+ [   2    7   14    0 2083    3   15    4    5   78]
+ [  14   37   11   73   20 1851   36    1   18    8]
+ [  19   13   17    3   16   33 2164    0    6    0]
+ [   5   31   32    5   33    8    0 2207   11   85]
+ [   7   64   20   46   18   66    9   11 1953   21]
+ [  18   12   10   30   86   17    0   61   13 2142]]
+Accuracy: 0.9229
+{'kernel': 'rbf', 'C': 1, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.0001, 'class_weight': None}
+score: 0.9228571428571428
+--------
+Start fitting. This may take a while
+Confusion matrix:
+[[2258    1    5    1    2    2    3    1    3    2]
+ [   1 2565    9    1    2    0    0    8    2    0]
+ [   5    1 2276    6    4    0    1   10    8    3]
+ [   0    1   15 2297    1   15    0    6    9    4]
+ [   1    3    2    0 2178    0    8    4    1   14]
+ [   4    1    0   17    3 2021   12    1    6    4]
+ [   8    5    3    0    5    2 2245    0    3    0]
+ [   1    5   11    2   10    1    0 2361    6   20]
+ [   3   10    6    9    5   11    1    2 2163    5]
+ [   3    2    1    8   22    7    0   13    7 2326]]
+Accuracy: 0.9823
+{'kernel': 'rbf', 'C': 2, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.005, 'class_weight': None}
+score: 0.9822510822510823
+--------
+Start fitting. This may take a while
+Confusion matrix:
+[[2244    1    4    0    4    7    7    1    9    1]
+ [   0 2550   15    2    4    0    1    7    8    1]
+ [   7    5 2237   14   10    4    9   13   12    3]
+ [   0    2   27 2251    1   28    1   11   21    6]
+ [   2    1    6    0 2150    1    9    4    3   35]
+ [   9    4    4   36    6 1982   17    0    6    5]
+ [  11    5    6    0    5   14 2225    0    5    0]
+ [   4    8   15    3   18    4    0 2332    5   28]
+ [   2   20    6   17    7   24    4    4 2124    7]
+ [   4    6    3   14   39    7    0   29   11 2276]]
+Accuracy: 0.9684
+{'kernel': 'rbf', 'C': 3, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.001, 'class_weight': None}
+score: 0.9684415584415584
+--------
+Start fitting. This may take a while
+Confusion matrix:
+[[2257    1    5    1    2    2    4    1    3    2]
+ [   1 2563   10    1    2    0    1    8    2    0]
+ [   4    1 2278    7    4    0    1    9    8    2]
+ [   0    1   15 2301    1   13    0    7    8    2]
+ [   1    3    2    0 2183    0    7    5    0   10]
+ [   4    1    0   18    4 2021   12    0    6    3]
+ [   8    5    3    0    5    2 2245    0    3    0]
+ [   1    6   10    2    5    1    0 2370    5   17]
+ [   3    8    6    7    6   11    1    2 2164    7]
+ [   3    2    1    8   20    5    0   12    8 2330]]
+Accuracy: 0.9832
+{'kernel': 'rbf', 'C': 4, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.005, 'class_weight': None}
+score: 0.9832034632034632
+
+==============
+
+/Users/provitchordia/anaconda2/bin/python "/Users/provitchordia/Machine Learning/SVM MNIST.py"
+/Users/provitchordia/anaconda2/lib/python2.7/site-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+Start fitting. This may take a while
+C 1
+gamma 0.001
+Accuracy rbf: 0.9587
+{'kernel': 'rbf', 'C': 1, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.001, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 2
+gamma 0.005
+Accuracy rbf: 0.9823
+{'kernel': 'rbf', 'C': 2, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.005, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 3
+gamma 0.0075
+Accuracy rbf: 0.9840
+{'kernel': 'rbf', 'C': 3, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.0075, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 4
+gamma 0.01
+Accuracy rbf: 0.9831
+{'kernel': 'rbf', 'C': 4, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.01, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 1
+gamma 0.001
+Accuracy lin: 0.9268
+{'kernel': 'linear', 'C': 1, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.001, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 2
+gamma 0.005
+Accuracy lin: 0.9236
+{'kernel': 'linear', 'C': 2, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.005, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 3
+gamma 0.0075
+Accuracy lin: 0.9228
+{'kernel': 'linear', 'C': 3, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.0075, 'class_weight': None}
+--------
+Start fitting. This may take a while
+C 4
+gamma 0.01
+Accuracy lin: 0.9223
+{'kernel': 'linear', 'C': 4, 'verbose': False, 'probability': False, 'degree': 3, 'shrinking': True, 'max_iter': -1, 'decision_function_shape': 'ovr', 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'gamma': 0.01, 'class_weight': None}
+--------
