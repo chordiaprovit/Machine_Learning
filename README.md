@@ -5,3 +5,6 @@ It covers:
 * Supervised learning
 * Unsupervised learning 
 * Reinforcement learning 
+
+Models are analyzed and tested on Adult census dataset and wine dataset from UCI machine learning repository. 
+MNIST dataset is also used for supervised learning.
